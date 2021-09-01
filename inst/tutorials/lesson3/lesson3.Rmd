@@ -25,19 +25,7 @@ global_monitor <- tibble(
 )
 ```
 
-## Logistics
-
-This lab will occur remotely and in groups of three. For those of you participating synchronously, you will find the Zoom room information on [Moodle](https://moodle.smith.edu/). I will assign you to a breakout room with your partner(s) from last week. 
-
-For those participating syncronously I will be available in the main Zoom room to answer questions. If you have a question or technical problem, click the "Ask for Help" button (it looks like a question mark) in the meeting controls, and I will be alerted to join your breakout room.  
-
-For those of you participating asynchronously, alert me to technical challengs over Slack DM, and I will get back to you as soon as possible. For questions about the content of the lab, please sign up for an office hour time block. 
-
-Each of you should be writing and running code, examining output, and answering the exercises throughout the lab. However, you only need to turn in one final lab report. To be clear, everyone submits files to Moodle, but the files can be the same within a group. Today one of you should be the main recorder of answers in the lab document. You will share this document with your teammates. As you work it may be helpful to share your screen. Be sure to switch roles from last week so that someone else is the main recorder. It may be helpful to share your screen. 
-
-You all should also feel free to ask and answer questions amongst yourselves via Zoom if participating synchronously or via Slack if participating asynchronously. Please note at the end of the lab document who you consulted for help.
-
-## Getting started
+## Pre-lab: Getting started
 
 In this lab, you will investigate the ways in which the statistics from a random 
 sample of data can serve as point estimates for population parameters. We're 
@@ -544,7 +532,7 @@ This lab will occur in groups of three.
 
 Each of you should be writing and running code, examining output, and answering the exercises throughout the lab. However, you only need to turn in one final lab report. To be clear, everyone submits files to Moodle, but the files can be the same within a group. Today one of you should be the main recorder of answers in the lab document. You will share this document with your teammates. As you work it may be helpful to share your screen. Be sure to switch roles from last week so that someone else is the main recorder. It may be helpful to share your screen. 
 
-You all should also feel free to ask and answer questions amongst yourselves via Zoom if participating synchronously or via Slack if participating asynchronously. Please note at the end of the lab document who you consulted for help.
+You all should also feel free to ask and answer questions amongst yourselves via Zoom if participating synchronously. Please note at the end of the lab document who you consulted for help.
 
 ## Creating a reproducible lab report
 
@@ -585,8 +573,6 @@ Now, you'll try to estimate the proportion of those who think it does.
 4. Describe the shape of this sampling distribution and compare it to the sampling distribution for a sample size of 15. 
     
 ## Deliverables
-
-Make sure you have submitted your hash to the Google Form for the first part of the lab.
 
 When you are finished editing your Markdown document click the "Knit" button and choose "Knit to HTML" in the top left corner of RStudio. This will run all of your code and create a formatted document of the output. If you get an error, it means something in your Markdown file isn't right, either an error in code or some error in formatting. Call me into your breakout room, and we will troubleshoot.
 
