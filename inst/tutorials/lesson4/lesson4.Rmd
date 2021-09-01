@@ -25,19 +25,8 @@ us_adults <- tibble(
 )
 ```
 
-## Logistics
 
-This lab will occur remotely and in groups of three. For those of you participating synchronously, you will find the Zoom room information on [Moodle](https://moodle.smith.edu/). I will assign you to a breakout room with your partner(s) from last week. 
-
-For those participating syncronously I will be available in the main Zoom room to answer questions. If you have a question or technical problem, click the "Ask for Help" button (it looks like a question mark) in the meeting controls, and I will be alerted to join your breakout room.  
-
-For those of you participating asynchronously, alert me to technical challengs over Slack DM, and I will get back to you as soon as possible. For questions about the content of the lab, please sign up for an office hour time block. 
-
-Each of you should be writing and running code, examining output, and answering the exercises throughout the lab. However, you only need to turn in one final lab report. To be clear, everyone submits files to Moodle, but the files can be the same within a group. Today one of you should be the main recorder of answers in the lab document. You will share this document with your teammates. As you work it may be helpful to share your screen. It may be helpful to share your screen. 
-
-You all should also feel free to ask and answer questions amongst yourselves via Zoom if participating synchronously or via Slack if participating asynchronously. Please note at the end of the lab document who you consulted for help.
-
-## Getting started
+## Pre-lab: Getting started
 
 If you have access to data on an entire population, say the opinion of every adult in the United States on whether or not they think climate change is affecting their local community, it's straightforward to answer questions like, "What percent of US adults think climate change is affecting their local community?". 
 Similarly, if you had demographic information on the population you could examine how, if at all, this opinion varies among young and old adults and adults with different leanings.
@@ -366,21 +355,22 @@ question("Does changing the number of bootstap samples affect the standard error
 
 Note that in Lab 3 we changed the original sample size to see how that affected the standard error. The distinction here is we are now changing the number of times to resample, given an original sample size.
 
-## Submit checkpoint
-
-```{r context="server"}
-learnrhash::encoder_logic(strip_output = T)
-```
+## Submit Pre-lab
 
 ```{r encode, echo=FALSE}
-learnrhash::encoder_ui(
-  ui_before = div(strong("Submit your hash in the form below."), br(), br()),
-  ui_after  = learnrhash::iframe_ui(
+learnrhash::iframe_ui(
     src = "https://docs.google.com/forms/d/e/1FAIpQLSc8oEW18VdLhacNl_IiLTKIYpbFvfUqjDEv4DkiXHLr3Ll1mw/viewform", ## change link, include name
     width="900px", height= "1000px"
-  )
 )
 ```
+
+## Lab 4 - Logistics
+
+This lab will occur in groups of three. 
+
+Each of you should be writing and running code, examining output, and answering the exercises throughout the lab. However, you only need to turn in one final lab report. To be clear, everyone submits files to Moodle, but the files can be the same within a group. Today one of you should be the main recorder of answers in the lab document. You will share this document with your teammates. As you work it may be helpful to share your screen. Be sure to switch roles from last week so that someone else is the main recorder. It may be helpful to share your screen. 
+
+You all should also feel free to ask and answer questions amongst yourselves via Zoom if participating synchronously. Please note at the end of the lab document who you consulted for help.
 
 ## Creating a reproducible lab report
 
@@ -434,7 +424,7 @@ LastName-LastName-LastName-L-04.Rmd  (add a third last name if applicable)
 
 LastName-LastName-LastName-L-04.html
 
-*Due*: Monday (beginning of class time, Eastern time)
+*Due*: Friday at 10am
 
 
 * * *
