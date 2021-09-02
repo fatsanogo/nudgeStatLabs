@@ -150,17 +150,12 @@ output$m19 <- renderLeaflet({getLocation(19)})
 output$m20 <- renderLeaflet({getLocation(20)})
 ```
 
-## Submit
-
-(no need to generate and submit hash)
+## Submit the activity
 
 ```{r encode, echo=FALSE}
-learnrhash::encoder_ui(
-  ui_before = div(strong("Submit your results here."), br(), br()),
-  ui_after  = learnrhash::iframe_ui(
+learnrhash::iframe_ui(
     src = "https://docs.google.com/forms/d/e/1FAIpQLSdRL6iRwOpov7fZUrG7f6OsCzoQsTK6YS1n3agRYFEE2jc8BQ/viewform?usp=sf_link", ## change link, include name
     width="900px", height= "1000px"
-  )
 )
 ```
 
