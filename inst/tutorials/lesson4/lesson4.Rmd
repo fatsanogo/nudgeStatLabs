@@ -414,8 +414,6 @@ head(data)
 
 ## Deliverables
 
-Make sure you have submitted your hash to the Google Form for the first part of the lab.
-
 When you are finished editing your Markdown document click the "Knit" button and choose "Knit to HTML" in the top left corner of RStudio. This will run all of your code and create a formatted document of the output. If you get an error, it means something in your Markdown file isn't right, either an error in code or some error in formatting. Call me into your breakout room, and we will troubleshoot.
 
 Submit your Markdown document and knitted file to [Moodle](https://moodle.smith.edu/) as:
