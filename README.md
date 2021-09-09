@@ -1,7 +1,7 @@
 # nudgeStatLabs
 ## learnr labs for intro stat
 These labs were originally adapted from labs for Open Intro ISRS by [Dr. Sara Stoudt](https://sastoudt.github.io/). 
-This repo was forked from her [original one](https://github.com/sastoudt/nudgeStatLabs)
+This repo was forked from her [original one](https://github.com/sastoudt/nudgeStatLabs). Minor implementation edits for Fall 2021 by Kinnaird.
 
 **For instructors:** an overview of how Dr. Stoudt used this set of learnr labs in an intro stats class can be found [here](https://sastoudt.github.io/posts/2021-06-05-learnr-tutorials-intro-stat/).
 
@@ -24,7 +24,7 @@ Note for Smith Students: For now, only do this on your own personal RStudio, not
 `remotes::install_github("kmkinnaird/nudgeStatLabs")`
 
 
-2. Thanks to Marney for this one: after install is complete (I know this seems weird, but go with it):
+2. Thanks to Marney (Biology) for this one: after install is complete (I know this seems weird, but go with it):
 
 ```remove.packages("htmltools")```
 
