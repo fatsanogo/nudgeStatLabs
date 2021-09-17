@@ -71,7 +71,7 @@ We will first create our population assuming a population size of 100,000.
 This means 20,000 (20%) of the population think the work scientists do does not 
 benefit them personally and the remaining 80,000 think it does.
 
-```{r data, exercise = T}
+```{r load-data, exercise = T}
 global_monitor <- tibble(
   scientist_work = c(rep("Benefits", 80000), rep("Doesn't benefit", 20000))
 )
