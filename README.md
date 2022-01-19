@@ -1,7 +1,7 @@
 # nudgeStatLabs
 ## learnr labs for intro stat
 These labs were originally adapted from labs for Open Intro ISRS by [Dr. Sara Stoudt](https://sastoudt.github.io/). 
-This repo was forked from her [original one](https://github.com/sastoudt/nudgeStatLabs). Minor implementation edits for Fall 2021 by Kinnaird.
+This repo was forked from her [original one](https://github.com/sastoudt/nudgeStatLabs). Minor implementation edits for Fall 2021 by Kinnaird and Spring 2022 by Sanogo.
 
 **For instructors:** an overview of how Dr. Stoudt used this set of learnr labs in an intro stats class can be found [here](https://sastoudt.github.io/posts/2021-06-05-learnr-tutorials-intro-stat/).
 
@@ -80,7 +80,7 @@ Click "Session" --> "Restart R" and try to run the tutorial again.
 
 ## Lab Instructions
 
-There will be a pre-lab and a lab report for each lab. The pre-lab will be completed **individually** and graded for completion. This is **due by 9am on Thursdays**. Then during lab you will work in a team of three to complete a lab report. If you finish early you can use the time to work on other assignments for the course. Pre-lab is submitted as a Google Form (see below). Lab report submitted to Moodle as LastName-LastName-LastName-L-LabNumber.Rmd and LastName-LastName-L-LabNumber.html The lab report is **due on the Friday following the lab**.
+There will be an interactive tutorial followed by a lab report for each lab. This is done in class during lab time. The interactive tutorial will be completed **individually** by submitting a google form (see below). If you finish early you can use the time to work on other assignments for the course. Lab report submitted to Moodle as LastName-LastName-LastName-L-LabNumber.Rmd and LastName-LastName-L-LabNumber.html.
 
 #### Troubleshooting
 
