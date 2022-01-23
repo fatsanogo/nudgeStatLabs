@@ -570,7 +570,7 @@ Now, you'll try to estimate the proportion of those who think it does.
     distribution using the same method as the pre-lab, and store these proportions in a 
     new object called `sample_props150`. 
     
-4. Describe the shape of this sampling distribution and compare it to the sampling distribution for a sample size of 15. 
+4. (More practice) Describe the shape of this sampling distribution and compare it to the sampling distribution for a sample size of 15. 
     
 ## Deliverables
 
