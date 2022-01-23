@@ -376,7 +376,7 @@ who exercise at least times a week and those who don't. (no code necessary here)
 
 3. Report the statistical results from the hypothesis test done above. (is our result statistically significant at the 0.05 level? what are the implications for our hypotheses?)
 
-4. Come up with a research question evaluating the relationship between height 
+4. (More practice) Come up with a research question evaluating the relationship between height 
 or weight and sleep. Formulate the question in a way that it can be answered using
 a hypothesis test.
 
