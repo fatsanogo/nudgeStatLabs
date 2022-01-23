@@ -285,7 +285,7 @@ You all should also feel free to ask and answer questions amongst yourselves via
 
 ## Creating a reproducible lab report
 
-For the rest of this lab you will R Markdown to create a reproducible lab report. 
+For the rest of this lab you will use R Markdown to create a reproducible lab report. 
 In RStudio, go to New File -> R Markdown... Then, choose From Template and then choose `Lab Report` from the list of templates. Make sure to name the document appropriately and pick a location for the file where you know how to find it on your computer.
 
 See the following video describing how to get started with creating these 
@@ -306,7 +306,7 @@ Answer in an Rmd file based on the lab report template. Remember you will need t
 
 3. Write the regression equations and interpret the slopes in the context of the relationship between the two variables. Remember to be careful with your language and avoid causal words.
 
-4. Assess the three assumptions needed to assess whether the linear model is reliable (you should make 3 plots for each regression model). Are the assumptions met? Explain why or why not.
+4. (More practice) Assess the three assumptions needed to assess whether the linear model is reliable (the two models created in question 2). You should make 3 plots for each regression model recall the assumption are 1)Linearity checked using a scatterplot, 2)Nearly normal residual and 3) constant variability. Are the assumptions met? Explain why or why not.
 
 ## Deliverables
 
@@ -317,8 +317,6 @@ Submit your Markdown document and knitted file to [Moodle](https://moodle.smith.
 LastName-LastName-LastName-L-08.Rmd  (add a third last name if applicable)
 
 LastName-LastName-LastName-L-08.html
-
-*Due*: Friday at 10am
 
 * * *
 
