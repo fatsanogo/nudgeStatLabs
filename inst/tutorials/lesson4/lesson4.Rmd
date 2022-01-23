@@ -374,7 +374,7 @@ You all should also feel free to ask and answer questions amongst yourselves via
 
 ## Creating a reproducible lab report
 
-For the rest of this lab you will R Markdown to create a reproducible lab report. 
+For the rest of this lab you will use R Markdown to create a reproducible lab report. 
 In RStudio, go to New File -> R Markdown... Then, choose From Template and then choose `Lab Report` from the list of templates. Make sure to name the document appropriately and pick a location for the file where you know how to find it on your computer.
 
 See the following video describing how to get started with creating these 
@@ -421,8 +421,6 @@ Submit your Markdown document and knitted file to [Moodle](https://moodle.smith.
 LastName-LastName-LastName-L-04.Rmd  (add a third last name if applicable)
 
 LastName-LastName-LastName-L-04.html
-
-*Due*: Friday at 10am
 
 
 * * *
