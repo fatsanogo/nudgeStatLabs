@@ -297,7 +297,7 @@ You all should also feel free to ask and answer questions amongst yourselves via
 
 ## Creating a reproducible lab report
 
-For the rest of this lab you will R Markdown to create a reproducible lab report. 
+For the rest of this lab you will use R Markdown to create a reproducible lab report. 
 In RStudio, go to New File -> R Markdown... Then, choose From Template and then choose `Lab Report` from the list of templates. Make sure to name the document appropriately and pick a location for the file where you know how to find it on your computer.
 
 See the following video describing how to get started with creating these 
@@ -312,13 +312,13 @@ reports for this lab, and all future labs:
 
 Answer in an Rmd file based on the lab report template. Remember you will need to load appropriate packages, set a seed, and load data. 
 
-1. It would be nice if multiple simulated datasets were all on the same plot to better judge whether our data fits within the simulated data. We repurpose some of the code that makes up the `qqnormsim` function. To see the source code for a function (what's going on behind the scenes when you use a function), you just specify the name without any parentheses or arguments.
+1. It would be nice to see the source code for a function (what's going on behind the scenes when you use a function), you just specify the name without any parentheses or arguments. Try typing just `qqnormsim` into your console and hit enter. What happens?
 
 ```{r, eval = F}
 qqnormsim
 ```
 
-We'll grab the parts we need, and adjust the parts we want to change. It is common practice to build off of pre-existing code when we develop new functions. It is not crucial that you understand every line of this chunk; just focus on the resulting plot. 
+You should be seeing the source code for the function. Pick one line that has some code you've seen before and make an educated guess at what it is doing. 
 
 ```{r, eval = F}
 y <- dairy_queen$cal_fat
@@ -338,7 +338,7 @@ df <- df %>% filter(plotnum != "data")
 ggplot(data = df, aes(sample = x, group = plotnum)) + geom_qq(alpha = 0.6) + geom_qq(data = original, aes(sample = x), col = "red", size = 2)
 ```
 
-2. In the plot above does the normal probability plot for the calories from fat in Dairy Queen items look similar to the plots created for the simulated data?  That is, do the plots provide evidence that the calories from fat are nearly normal? Explain.
+2. Does the normal probability plot for the calories from fat in Dairy Queen items generated in the pre-lab look similar to the plots created for the simulated data?  That is, do the plots provide evidence that the calories from fat are nearly normal? Explain.
 
 3. Write out a probability question that you would like to answer about any 
     of the restaurants in this dataset that would take advantage of `pnorm`.  Calculate that probability.
@@ -355,8 +355,6 @@ Submit your Markdown document and knitted file to [Moodle](https://moodle.smith.
 LastName-LastName-LastName-L-10.Rmd  (add a third last name if applicable)
 
 LastName-LastName-LastName-L-10.html
-
-*Due*: Friday at 10am
 
 * * *
 
