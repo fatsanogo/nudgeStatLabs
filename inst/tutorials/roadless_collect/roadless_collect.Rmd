@@ -154,7 +154,7 @@ output$m20 <- renderLeaflet({getLocation(20)})
 
 ```{r encode, echo=FALSE}
 learnrhash::iframe_ui(
-    src = "https://docs.google.com/forms/d/e/1FAIpQLSdRL6iRwOpov7fZUrG7f6OsCzoQsTK6YS1n3agRYFEE2jc8BQ/viewform?usp=sf_link", ## change link, include name
+    src = "https://docs.google.com/forms/d/e/1FAIpQLSe-BFE3Z5eCjaExx_o4vgUYJM_C9yeNgy7nfII_5YS7KBMiBw/viewform", ## change link, include name
     width="900px", height= "1000px"
 )
 ```
