@@ -439,7 +439,7 @@ You all should also feel free to ask and answer questions amongst yourselves via
   
 ## Creating a reproducible lab report
 
-For this lab you will R Markdown to create a reproducible lab report. 
+For this lab you will use R Markdown to create a reproducible lab report. 
 In RStudio, go to New File -> R Markdown... Then, choose From Template and then choose `Lab Report` from the list of templates. Make sure to name the document appropriately and pick a location for the file where you know how to find it on your computer.
 
 See the following video describing how to get started with creating these 
@@ -494,7 +494,7 @@ ggplot(data = sfo_feb_flights, aes(x = arr_delay)) +
   geom_histogram(binwidth = 5)
 ```
 
-4.  Load the `nycflights` dataset and replicate the following plot. **Hint:** The data frame plotted only
+4.  (More practice)Load the `nycflights` dataset and replicate the following plot. **Hint:** The data frame plotted only
     contains flights from American Airlines, Delta Airlines, and United
     Airlines, and the points are `color`ed by `carrier`. Once you replicate
     the plot, determine (roughly) what the cutoff point is for departure
@@ -521,8 +521,6 @@ Submit your Markdown document and knitted file to [Moodle](https://moodle.smith.
 LastName-LastName-LastName-L-02.Rmd  (add a third last name if applicable)
 
 LastName-LastName-LastName-L-02.html
-
-*Due*: Friday at 10am 
 
 
 * * *
