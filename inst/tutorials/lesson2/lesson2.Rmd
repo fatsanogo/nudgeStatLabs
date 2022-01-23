@@ -494,7 +494,7 @@ ggplot(data = sfo_feb_flights, aes(x = arr_delay)) +
   geom_histogram(binwidth = 5)
 ```
 
-4.  (More practice)Load the `nycflights` dataset and replicate the following plot. **Hint:** The data frame plotted only
+4.  Load the `nycflights` dataset and replicate the following plot. **Hint:** The data frame plotted only
     contains flights from American Airlines, Delta Airlines, and United
     Airlines, and the points are `color`ed by `carrier`. Once you replicate
     the plot, determine (roughly) what the cutoff point is for departure
