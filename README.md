@@ -21,7 +21,7 @@ Note for Smith Students: For now, only do this on your own personal RStudio, not
 
 `remotes::install_github("rstudio-education/gradethis")`
 
-`remotes::install_github("kmkinnaird/nudgeStatLabs")`
+`remotes::install_github("fatsanogo/nudgeStatLabs")`
 
 
 2. Thanks to Marney (Biology) for this one: after install is complete (I know this seems weird, but go with it):
