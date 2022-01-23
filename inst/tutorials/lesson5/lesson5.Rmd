@@ -448,7 +448,7 @@ question("Do you have evidence that the hot hand model fits Kobe's
 
 ```{r encode, echo=FALSE}
 learnrhash::iframe_ui(
-    src = "https://docs.google.com/forms/d/e/1FAIpQLSc8oEW18VdLhacNl_IiLTKIYpbFvfUqjDEv4DkiXHLr3Ll1mw/viewform", ## change link, include name
+    src = "https://docs.google.com/forms/d/e/1FAIpQLScOZEIiC3Vd46NnukYPoKU-Sk0aVdFtO-cg23LA6X3pH1hrkQ/viewform", ## change link, include name
     width="900px", height= "1000px"
 )
 ```
