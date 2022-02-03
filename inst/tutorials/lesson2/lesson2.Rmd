@@ -507,7 +507,7 @@ ggplot(data = dl_aa_ua, aes(x = dep_delay, y = arr_delay, color = carrier)) +
   geom_point()
 ```
 
-You may want to refer to the [ggplot cheatsheet](https://rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf) and the [dplyr cheatsheet](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf).
+You may want to refer to the [ggplot cheatsheet](https://github.com/rstudio/cheatsheets/blob/master/data-visualization.pdf) and the [dplyr cheatsheet](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf).
 
 
 ## Deliverables
