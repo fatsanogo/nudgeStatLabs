@@ -51,7 +51,7 @@ library(infer)
 
 It doesn't really matter what you pick for the seed, but I usually use the numbers from the current date and time (but exclude any zeros). Kellie Ottoboni, who studied random number generators, told me a good heuristic is to avoid using zeros. 
 
-```{r set-seed, exercise = T}
+```{r set-seed, exercise = TRUE}
 set.seed(818113)
 ```
 
@@ -80,7 +80,7 @@ The name of the data frame is `us_adults` and the name of the variable that cont
 
 We can quickly visualize the distribution of these responses using a bar plot.
 
-```{r bar-plot-pop, exercise = T}
+```{r bar-plot-pop, exercise = TRUE}
 ggplot(us_adults, aes(x = climate_change_affects)) +
   geom_bar() +
   labs(
@@ -92,7 +92,7 @@ ggplot(us_adults, aes(x = climate_change_affects)) +
 
 We can also obtain summary statistics to confirm we constructed the data frame correctly.
 
-```{r summ-stat-pop, exercise = T}
+```{r summ-stat-pop, exercise = TRUE}
 us_adults %>%
   count(climate_change_affects) %>%
   mutate(p = n /sum(n))
@@ -100,7 +100,7 @@ us_adults %>%
 
 In this lab, you'll start with a simple random sample of size 60 from the population.
 
-```{r sample, exercise = T}
+```{r sample, exercise = TRUE}
 n <- 60
 samp <- us_adults %>%
   slice_sample(n = n)
