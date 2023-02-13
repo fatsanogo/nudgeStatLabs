@@ -20,9 +20,9 @@ tutorial_options(
   )
 knitr::opts_chunk$set(echo = FALSE)
 
-#us_adults <- tibble(
- # climate_change_affects = c(rep("Yes", 62000), rep("No", 38000))
-#)
+us_adults <- tibble(
+  climate_change_affects = c(rep("Yes", 62000), rep("No", 38000))
+)
 ```
 
 
