@@ -19,11 +19,10 @@ tutorial_options(
   exercise.checker = gradethis::grade_learnr
   )
 knitr::opts_chunk$set(echo = FALSE)
-
+```
 #us_adults <- tibble(
  # climate_change_affects = c(rep("Yes", 62000), rep("No", 38000))
 #)
-```
 
 
 ## Pre-lab: Getting started
