@@ -195,7 +195,7 @@ In this case, you have the rare luxury of knowing the true population proportion
 
 ```{r containTruth}
 question("Did the confidence interval contain the true population proportion (62%)?",
-    answer("Yes", correct = T),
+    answer("Yes", correct = TRUE),
     answer("No"),
     allow_retry = TRUE,
     random_answer_order = F
@@ -270,7 +270,7 @@ gradethis::grade_code()
 
 ```{r containTruth2}
 question("Did this new confidence interval contain the true population proportion (62%)?",
-    answer("Yes", correct = T),
+    answer("Yes", correct = TRUE),
     answer("No"),
     allow_retry = TRUE,
     random_answer_order = F
@@ -347,7 +347,7 @@ question("How does the width of the interval change as you decrease the number o
 question("Does changing the number of bootstap samples affect the standard error? **Hint:** Remember that a 95% confidence interval is roughly our original estimate +/- 2*SE.",
     answer("Yes, the standard error gets smaller."),
     answer("Yes, the standard error gets bigger."),
-    answer("No, the standard error stays roughly the same.",correct = T),
+    answer("No, the standard error stays roughly the same.",correct = TRUE),
     allow_retry = TRUE,
     random_answer_order = F
   )
